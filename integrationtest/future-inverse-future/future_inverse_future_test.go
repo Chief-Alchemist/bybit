@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hirokisan/bybit/v2"
-	"github.com/hirokisan/bybit/v2/integrationtest/testhelper"
+	"github.com/Chief-Alchemist/bybit/v2"
+	"github.com/Chief-Alchemist/bybit/v2/integrationtest/testhelper"
 	"github.com/stretchr/testify/require"
 )
 
