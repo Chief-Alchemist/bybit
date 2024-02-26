@@ -427,6 +427,7 @@ type LinearInversePriceFilterV5 struct {
 }
 
 type LinearInverseLotSizeFilterV5 struct {
+	MaxMktOrderQty      string `json:"maxMktOrderQty"`
 	MaxOrderQty         string `json:"maxOrderQty"`
 	MinOrderQty         string `json:"minOrderQty"`
 	QtyStep             string `json:"qtyStep"`
